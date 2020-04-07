@@ -337,7 +337,7 @@ df.describe()
 
 
 
-Pode-se observar que o dataset possui quase 1,5 milhões de entradas e não tem vam valores missing. Para começar, transformei o pickup_datetime para o formato datetime e dropei as features id e dropoff_datetime do dataset de treino. A dropoff_datetime não está presente no dataset de teste, então não faz sentido a utilizar para o treinamento do modelo (e não teria a menor graça, pois com o horário de início e fim da corrida não precisamos de machine learning para calcular a duração).
+Pode-se observar que o dataset possui quase 1,5 milhões de entradas e não tem valores missing. Para começar, transformei o pickup_datetime para o formato datetime e dropei as features id e dropoff_datetime do dataset de treino. A dropoff_datetime não está presente no dataset de teste, então não faz sentido a utilizar para o treinamento do modelo (e não teria a menor graça, pois com o horário de início e fim da corrida não precisamos de machine learning para calcular a duração).
 
 No describe do dataset já é possível observar que existem viagens com 0 passageiros e com duração de 1 segundo, além possíveis outliers, que serão investigados com maior atenção na visualização dos dados.
 
